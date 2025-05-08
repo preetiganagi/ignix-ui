@@ -77,6 +77,116 @@
           "type": "tailwind-config"
         }
       }
+    },
+    "navbar": {
+      "name": "Navbar",
+      "description": "A responsive navigation bar with animation",
+      "dependencies": ["@radix-ui/react-navigation-menu", "lucide-react", "framer-motion", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/navbar/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "tabs": {
+      "name": "Tabs",
+      "description": "A tab component with animation and different variants",
+      "dependencies": ["@radix-ui/react-tabs", "framer-motion", "lucide-react", "framer-motion", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/tabs/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "breadcrumbs": {
+      "name": "Breadcrumbs",
+      "description": "A breadcrumb navigation component with animation",
+      "dependencies": ["@radix-ui/react-breadcrumbs", "framer-motion", "lucide-react", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/breadcrumbs/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "sidebar": {
+      "name": "Sidebar",
+      "description": "A collapsible sidebar component with animation",
+      "dependencies": ["@radix-ui/react-collapsible", "framer-motion", "lucide-react", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/sidebar/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "input": {
+      "name": "Input",
+      "description": "An animated input component with different variants",
+      "dependencies": ["@radix-ui/react-input", "framer-motion", "lucide-react", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/input/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "textarea": {
+      "name": "Textarea",
+      "description": "An animated textarea component with different variants",
+      "dependencies": ["@radix-ui/react-textarea", "framer-motion", "lucide-react", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/textarea/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "tooltip": {
+      "name": "Tooltip",
+      "description": "An animated tooltip component with different variants",
+      "dependencies": ["@radix-ui/react-tooltip", "framer-motion", "lucide-react", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/tooltip/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "dropdown": {
+      "name": "Dropdown",
+      "description": "An animated dropdown component with different variants",
+      "dependencies": ["@radix-ui/react-dropdown-menu", "framer-motion", "lucide-react", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/dropdown/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "spinner": {
+      "name": "Spinner",
+      "description": "An animated spinner component with different variants",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "files": {
+        "main": {
+          "path": "components/spinner/index.tsx",
+          "type": "component"
+        }
+      }
+    },
+    "steppers": {
+      "name": "Steppers",
+      "description": "An animated steppers component with different variants",
+      "dependencies": ["@radix-ui/react-stepper", "framer-motion", "lucide-react", "class-variance-authority"],
+      "files": {
+        "main": {
+          "path": "components/steppers/index.tsx",
+          "type": "component"
+        }
+      }
     }
   }
 }
