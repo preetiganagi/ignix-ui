@@ -10,6 +10,7 @@ interface AnimatedInputProps {
   inputClassName?: string;
   labelClassName?: string;
   value: string;
+  type?: string;
   onChange?: (value: string) => void;
   onFocus?: () => void;
   onBlur?: () => void;
@@ -49,6 +50,7 @@ export const AnimatedInput: React.FC<AnimatedInputProps> = ({
   labelClassName = "",
   value,
   onChange,
+  type = "text",
 }) => {
   const [isFocused, setIsFocused] = useState(false);
 
@@ -98,7 +100,7 @@ export const AnimatedInput: React.FC<AnimatedInputProps> = ({
       </motion.label>
       <div className="relative">
         <motion.input
-          type="text"
+          type={type}
           className={`w-full px-3 py-2 bg-white border-2 rounded-md focus:outline-none ${inputClassName}`}
           onFocus={handleFocus}
           onBlur={handleBlur}

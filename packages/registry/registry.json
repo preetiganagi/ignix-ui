@@ -92,10 +92,10 @@
     "tabs": {
       "name": "Tabs",
       "description": "A tab component with animation and different variants",
-      "dependencies": ["@radix-ui/react-tabs", "framer-motion", "lucide-react", "framer-motion", "class-variance-authority"],
+      "dependencies": ["@radix-ui/react-tabs", "framer-motion", "lucide-react", "class-variance-authority"],
       "files": {
         "main": {
-          "path": "components/tabs/index.tsx",
+          "path": "components/tab/index.tsx",
           "type": "component"
         }
       }
@@ -183,7 +183,7 @@
       "dependencies": ["@radix-ui/react-stepper", "framer-motion", "lucide-react", "class-variance-authority"],
       "files": {
         "main": {
-          "path": "components/steppers/index.tsx",
+          "path": "components/stepper/index.tsx",
           "type": "component"
         }
       }

@@ -106,9 +106,8 @@ export const Tabs: React.FC<TabsProps> = ({
               isActive && (
                 <motion.div
                   layoutId={`active-tab-bg-${variant}`}
-                  className="absolute inset-0 z-[-1] rounded-md"
+                  className="absolute inset-0 z-[-1] rounded-md bg-[rgba(0,115,230,0.1)]"
                   transition={{ duration: 0.3 }}
-                  style={{ backgroundColor: "rgba(0, 115, 230, 0.1)" }}
                 />
               )}
           </motion.button>
